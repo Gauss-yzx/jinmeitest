@@ -1,0 +1,323 @@
+/**index.wxss**/
+
+@import "../loading/loading.wxss";
+
+.container {
+    position: relative;
+}
+
+.organization {
+    overflow: hidden;
+    width: 717rpx;
+    height: 232rpx;
+    margin: 33rpx auto;
+    background: #FFFFFF;
+    box-shadow: 0 8px 20px 0 #E5EDF6;
+    border-radius: 4px;
+}
+
+.top {
+    width: 100%;
+    height: 88rpx;
+    margin-top: 30rpx;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    width: 88rpx;
+    height: 88rpx;
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    margin-left: 28rpx;
+}
+
+.logo image {
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin: 12% auto;
+}
+
+.name {
+    float: left;
+    width: 224rpx;
+    height: 88rpx;
+    margin-left: 20rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 32rpx;
+    color: #333333;
+    line-height: 88rpx;
+}
+
+.sign {
+    display: inline-block;
+    float: right;
+    width: 134rpx;
+    height: 55rpx;
+    margin-right: 32rpx;
+    margin-top: 20rpx;
+    background: #9062F7;
+    box-shadow: 0 5px 16px 1px #D4DAF0;
+    border-radius: 32px;
+    color: #FFFFFF;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 55rpx;
+}
+
+.detail {
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: 90rpx;
+    word-break: break-all;
+    margin-top: 7rpx;
+    padding: 8rpx 30rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 26rpx;
+    color: #666666;
+}
+
+.coverOn {
+    position: absolute;
+    width: 750rpx;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.80);
+}
+
+.coverOff {
+    display: none;
+}
+
+
+
+
+/*page {
+    overflow: hidden;
+}*/
+
+.bundle {
+    /*display: none;*/
+    overflow: hidden;
+    width: 619rpx;
+    height: 643rpx;
+    margin: 243rpx auto;
+    background: white;
+    border-radius: 1%;
+}
+
+.bundle .title {
+    display: block;
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #888888;
+    text-align: center;
+    margin-top: 44rpx;
+}
+
+.information {
+    width: 490rpx;
+    border-bottom: solid 1px rgba(216, 216, 216, 0.75);
+    margin: 60rpx auto;
+}
+
+.username {
+    margin-top: 70rpx;
+}
+
+.asterisk {
+    /*display: block;*/
+    color: rgba(255, 2, 25, 0.4);
+    float: left;
+    font-size: 26rpx;
+}
+
+.third {
+    opacity: 0;
+}
+
+.icon {
+    float: left;
+    width: 37rpx;
+    height: 37rpx;
+    margin-top: 6rpx;
+    margin-left: 10rpx;
+}
+
+.bundle input,
+.placeholder {
+    width: 370rpx;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24rpx;
+    color: gray;
+    text-align: center;
+}
+
+.placeholder {
+    opacity: 0.55;
+}
+
+.bundle button {
+    width: 492rpx;
+    height: 85rpx;
+    background: #9062F7;
+    box-shadow: 0 15rpx 35rpx 0 #DFDBF7;
+    border-radius: 40px;
+    font-family: PingFangSC-Regular;
+    font-weight: lighter;
+    font-size: 32rpx;
+    color: #FFFFFF;
+    text-shadow: 0 2rpx 0 #6E36ED;
+    letter-spacing: 10rpx;
+    border: none;
+}
+
+.selectStatement {
+    position: relative;
+    overflow: hidden;
+    width: 619rpx;
+    height: 750rpx;
+    background: white;
+    margin: 184rpx auto;
+    border-radius: 1%;
+    border: solid 1px gray;
+}
+
+.state {
+    position: relative;
+    width: 490rpx;
+    height: 60rpx;
+    border-bottom: solid 1px gray;
+    margin: 66rpx auto;
+}
+
+.stateWrapper{
+    overflow: hidden;
+    min-height: 461rpx;
+}
+
+.scroll{
+    margin-top: 20rpx;
+    height: 610rpx;
+}
+
+.selectStatement text {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #333333;
+    line-height: 66rpx;
+}
+
+.selectStatement .tab {
+    position: absolute;
+    width: 25rpx;
+    height: 14rpx;
+    float: right;
+    top: 24rpx;
+    right: 15rpx;
+}
+
+.btn {
+    /*width: 492rpx;*/
+    height: 85rpx;
+    /*background: #9062F7;
+    box-shadow: 0 15px 35px 0 #DFDBF7;*/
+    font-family: PingFangSC-Regular;
+    margin-bottom: 50rpx;
+}
+
+.btn button{
+    display: inline-block;
+    width: 38%;
+    background: #9062F7;
+    box-shadow: 0 15px 35px 0 #DFDBF7;
+    border-radius: 10%;
+    color: #FFFFFF;
+    font-size: 32rpx;
+    text-shadow: 0 2rpx 0 #6E36ED;
+}
+
+.cancel{
+    margin-left: 64rpx;
+}
+
+.check{
+    margin-left: 20rpx;
+}
+
+.join {
+    position: relative;
+    overflow: hidden;
+    width: 619rpx;
+    height: 750rpx;
+    background: white;
+    margin: 184rpx auto;
+    border-radius: 1%;
+}
+
+.join text,
+.selectStatement text {
+    display: block;
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #888888;
+    text-align: center;
+    margin-top: 46rpx;
+}
+
+.quitSelect{
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    top: 22rpx;
+    left: 539rpx;
+}
+
+.add {
+    position: absolute;
+    width: 70rpx;
+    height: 70rpx;
+    top: 42rpx;
+    left: 509rpx;
+}
+
+.statement {
+    text-align: center;
+    font-size: 40rpx;
+    line-height: 80rpx;
+}
+
+.join button {
+    display: block;
+    margin-top: 120rpx;
+    font-size: 28rpx;
+    line-height: 85rpx;
+    border: none;
+}
+
+.chooseWrapper {
+    /*display: block;*/
+    margin-top: 100rpx;
+}
+
+.showSelected {
+    /*display: block;*/
+}
+
+
+
+
+
+
+
+
+
+/*End*/
+
+
+/*End*/

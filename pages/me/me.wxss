@@ -1,0 +1,452 @@
+page {
+    background: #F6F8FC;
+}
+
+.me {
+    overflow: hidden;
+    width: 717rpx;
+    height: 187rpx;
+    background: white;
+    box-shadow: 0 8px 20px 0 #E5EDF6;
+    border-radius: 4rpx;
+    margin: 31rpx auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*.headWrapper{
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    width: 124rpx;
+    height: 124rpx;
+    margin-top: 32rpx;
+    margin-left: 36rpx;
+    border-radius: 50%;
+    background: pink;
+}
+*/
+
+.me .head {
+    display: block;
+    float: left;
+    width: 124rpx;
+    height: 124rpx;
+    margin-top: 32rpx;
+    margin-left: 36rpx;
+    border-radius: 50%;
+}
+
+.me .icon {
+    width: 33rpx;
+    height: 33rpx;
+    float: left;
+    margin-top: 15rpx;
+}
+
+.me .name {
+    display: block;
+    margin-left: 189rpx;
+    margin-top: 38rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 30rpx;
+    color: #333333;
+    text-align: left;
+}
+
+.me .studentID,
+.me .phone {
+    display: inline-block;
+    /*float: left;*/
+}
+
+.me .studentID {
+    margin-left: 29rpx;
+    margin-top: 14rpx;
+}
+
+.me .phone {
+    margin-left: 47rpx;
+}
+
+.me .studentID text,
+.me .phone text {
+    float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 26rpx;
+    color: #666666;
+    text-align: left;
+    line-height: 56rpx;
+    margin-left: 18.6rpx;
+}
+
+.signed {
+    width: 717rpx;
+    height: 103rpx;
+    background: white;
+    margin: 0rpx auto;
+    margin-top: 30rpx;
+    box-shadow: 0 8px 20px 0 #E5EDF6;
+    border-radius: 4rpx;
+}
+
+.signed text {
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #666666;
+    text-align: left;
+    line-height: 103rpx;
+    margin-left: 36rpx;
+}
+
+.signed image {
+    float: right;
+    margin-right: 48rpx;
+    margin-top: 36rpx;
+    width: 28rpx;
+    height: 28rpx;
+}
+
+.orgnazitionWrapper {
+    width: 717rpx;
+    background: white;
+    box-shadow: 0 8px 20px 0 #E5EDF6;
+    margin: 14rpx auto;
+}
+
+.orgnazition,
+.statement {
+    width: 645rpx;
+    margin: 0 auto;
+    /*border-bottom: solid 1px lightgray;*/
+}
+
+.orgnazitionName {
+    height: 103rpx;
+    border-bottom: solid 1px lightgray;
+}
+
+.orgnazition text {
+    font-family: PingFangSC-Regular;
+    font-size: 30rpx;
+    color: #333333;
+    text-align: left;
+    line-height: 103rpx;
+    margin-left: 2rpx;
+}
+
+.orgnazition .more {
+    width: 15rpx;
+    height: 26rpx;
+    float: right;
+    margin-top: 37rpx;
+    margin-right: 19rpx;
+}
+
+.orgnazition .pick {
+    width: 25rpx;
+    height: 14rpx;
+    float: right;
+    margin-top: 44rpx;
+    margin-right: 15rpx;
+}
+
+.moreTab {
+    display: inline-block;
+    float: right;
+    width: 100rpx;
+    height: 103rpx;
+}
+
+.statement {
+    border-bottom: solid 1px lightgray;
+}
+
+.statement text {
+    font-family: PingFangSC-Regular;
+    font-size: 26rpx;
+    line-height: 103rpx;
+    color: #333333;
+    text-align: left;
+    margin-left: 50rpx;
+}
+
+.news {
+    padding: 40rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 20rpx;
+    color: #666666;
+    text-align: justify;
+    border-bottom: solid 1px lightgray;
+}
+
+.blanck {
+    height: 130rpx;
+    margin-bottom: 0;
+}
+
+.cover {
+    position: absolute;
+    width: 750rpx;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.80);
+}
+
+.modifyInformation {
+    position: relative;
+    overflow: hidden;
+    width: 619rpx;
+    height: 634rpx;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 240rpx auto;
+}
+
+.bundle .title {
+    display: block;
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #888888;
+    text-align: center;
+    margin-top: 44rpx;
+}
+
+.information {
+    width: 490rpx;
+    border-bottom: solid 1px rgba(216, 216, 216, 0.75);
+    margin: 60rpx auto;
+}
+
+.username {
+    margin-top: 70rpx;
+}
+
+.asterisk {
+    /*display: block;*/
+    color: rgba(255, 2, 25, 0.4);
+    float: left;
+    font-size: 26rpx;
+}
+
+.third {
+    opacity: 0;
+}
+
+.icon {
+    float: left;
+    width: 37rpx;
+    height: 37rpx;
+    margin-top: 6rpx;
+    margin-left: 10rpx;
+}
+
+.modifyImg{
+    display: inline-block;
+    float: right;
+    width: 130rpx;
+    height: 100%;
+}
+
+.bundle input,
+.placeholder {
+    width: 370rpx;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 24rpx;
+    color: gray;
+    text-align: center;
+}
+
+.placeholder {
+    opacity: 0.55;
+}
+
+.bundle button {
+    width: 492rpx;
+    height: 85rpx;
+    background: #9062F7;
+    box-shadow: 0 15rpx 35rpx 0 #DFDBF7;
+    border-radius: 40px;
+    font-family: PingFangSC-Regular;
+    font-weight: lighter;
+    font-size: 32rpx;
+    color: #FFFFFF;
+    text-shadow: 0 2rpx 0 #6E36ED;
+    letter-spacing: 10rpx;
+    border: none;
+}
+
+.quitModify {
+    position: absolute;
+    top: 24rpx;
+    right: 30rpx;
+    width: 36rpx;
+    height: 36rpx;
+}
+
+.modifyWrapper {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 677rpx;
+    margin: 30rpx auto;
+    padding: 40rpx 30rpx;
+    background: white;
+}
+
+.title {
+    height: 42rpx;
+    font-size: 30rpx;
+    font-family: PingFangSC-Light;
+    color: rgba(51, 51, 51, 1);
+    line-height: 42rpx;
+    text-align: center;
+    display: block;
+}
+
+.modifyBox {
+    border-bottom: solid 1px lightgray;
+    padding: 30rpx;
+}
+
+.modifyWrapper image {
+    position: relative;
+    width: 32rpx;
+    height: 32rpx;
+    float: right;
+    margin-top: 8rpx;
+}
+
+.modifyOrz {
+    height: 45rpx;
+    font-size: 32rpx;
+    font-family: PingFangSC-Light;
+    color: rgba(17, 17, 17, 1);
+    line-height: 45rpx;
+}
+
+.modifyWrapper .modifyTab {
+    margin-right: 42rpx;
+}
+
+.modifyStatement {
+    overflow: hidden;
+    margin-top: 25rpx;
+    height: 40rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC-Light;
+    color: rgba(68, 68, 68, 1);
+    line-height: 40rpx;
+}
+
+.checkDelete {
+    width: 619rpx;
+    height: 298rpx;
+    margin: 400rpx auto;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4rpx;
+    font-size: 34rpx;
+    font-family: PingFangSC-Light;
+    color: rgba(51, 51, 51, 1);
+    line-height: 138rpx;
+    text-align: center;
+}
+
+.checkDelete button {
+    float: left;
+    margin-top: 20rpx;
+    margin-left: 60rpx;
+    width: 176rpx;
+    height: 85rpx;
+    background: rgba(144, 98, 247, 1);
+    box-shadow: 0px 15rpx 35rpx 0rpx rgba(223, 219, 247, 1);
+    border-radius: 40rpx;
+    font-size: 32rpx;
+    font-family: PingFangSC-Regular;
+    color: rgba(255, 255, 255, 1);
+    line-height: 85rpx;
+}
+
+.sure {
+    margin-left: 147rpx !important;
+}
+
+
+.modifyChoose {
+    position: relative;
+    overflow: hidden;
+    width: 619rpx;
+    height: 610rpx;
+    background: white;
+    margin: 184rpx auto;
+    border-radius: 1%;
+}
+
+.modifyChoose text,
+.selectStatement text {
+    display: block;
+    font-family: PingFangSC-Regular;
+    font-size: 28rpx;
+    color: #888888;
+    text-align: center;
+    margin-top: 46rpx;
+}
+
+.quitSelect {
+    position: absolute;
+    width: 40rpx;
+    height: 40rpx;
+    top: 22rpx;
+    left: 559rpx;
+}
+
+.modifyChoose .statement {
+    text-align: center;
+    font-size: 40rpx;
+    line-height: 80rpx;
+    border: none;
+}
+
+.modifyChoose button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    width: 492rpx;
+    height: 85rpx;
+    background: rgba(144, 98, 247, 1);
+    box-shadow: 0px 15px 35px 0px rgba(223, 219, 247, 1);
+    border-radius: 40rpx;
+    border: none;
+    font-size: 32rpx;
+    font-family: PingFangSC-Regular;
+    color: rgba(255, 255, 255, 1);
+    line-height: 85rpx;
+}
+
+.chooseWrapper {
+    margin-top: 30rpx;
+}
+
+#quitChange {
+    display: block;
+    width: 56rpx;
+    height: 56rpx;
+    position: absolute;
+    top: 40rpx;
+    left: 45rpx;
+    opacity: 0.7;
+}
+
+
+
+
+
+/*end*/

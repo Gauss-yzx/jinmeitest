@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<!--index.wxml-->
+<view class="container" wx:if="{{anthorize}}" style="overflow: {{overflow}};">
+    <scroll-view class="mainBody">
+        <view class="organization" wx:for="{{orgnazition}}" wx:key="*this">
+            <view class="top">
+                {{ml.message}}
+                <view class="logo">
+                    <image src="{{item.logo}}" mode="scaleToFill"></image>
+                </view>
+                <text class="name">{{item.name}}</text>
+                <view class="sign" bind:tap="register" data-index="{{index}}">报名</view>
+            </view>
+            <view class="detail">{{item.dec}}</view>
+        </view>
+        <view class="blank"></view>
+    </scroll-view>
+    <view class="{{cover}}">
+        <view class="bundle" wx:if="{{switch}}">
+            <text class="title">绑定信息</text>
+            <view class="information username">
+                <text class="asterisk">*</text>
+                <image class="icon" src="../../img/user.png" mode="scaleToFill"></image>
+                <input id="stuname" bindinput="getInput" type="text" placeholder="姓名" placeholder-class="placeholder"></input>
+            </view>
+            <view class="information studentID">
+                <text class="asterisk">*</text>
+                <image class="icon" src="../../img/studentID.png" mode="scaleToFill"></image>
+                <input id="stuid" bindinput="getInput" type="number" placeholder="学号" placeholder-class="placeholder"></input>
+            </view>
+            <view class="information phoneNumber">
+                <text class="asterisk third">*</text>
+                <image class="icon" src="../../img/phone.png" mode="scaleToFill"></image>
+                <input id="phonenum" bindinput="getInput" type="number" placeholder="电话" placeholder-class="placeholder"></input>
+            </view>
+            <button bind:tap="submitInformation">确定</button>
+        </view>
+        <view class="selectStatement" wx:if="{{!switch && add}}">
+            <text>选择部门</text>
+            <image class="add" bind:tap="addWanted" src="../../img/add.png" mode="scaleToFill"></image>
+            <scroll-view scroll-y class="scroll">
+                <view class="stateWrapper">
+                    <view class="state" wx:for="{{wanted}}" wx:key="*this" bind:tap="selectStatement" data-index="{{index}}">
+                        <text>{{selected[index].dname}}</text>
+                        <image class="tab" src="../../img/pick.png" mode="scaleToFill"></image>
+                    </view>
+                </view>
+                <view class="btn">
+                    <button class="cancel" bind:tap="cancel">取消</button>
+                    <button class="check" bind:tap="send">确定</button>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="join" wx:if="{{!add}}">
+            <text>选择部门</text>
+            <image class="quitSelect" bind:tap="quitSelect" src="../../img/cancel.png" mode="scaleToFill"></image>
+            <view class="chooseWrapper">
+                <picker-view indicator-style="height: 600rpx;" style="width: 100%; height: 300rpx;" bindchange="chooseStatement">
+                    <picker-view-column>
+                        <view class="statement" wx:for="{{orgnazition[index].statement}}" wx:key="*this">{{item}}</view>
+                    </picker-view-column>
+                </picker-view>
+                <button bind:tap="checkSelected">确定</button>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="loading" wx:if="{{!anthorize}}">
+    <include src="../loading/loading.wxml"/>
+</view>
